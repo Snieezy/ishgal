@@ -4,15 +4,15 @@
     <title>Ishgal</title>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
   </head>
 
   <body ng-app='mainModule'>
+    <div class='container'>
     <%= render 'layouts/navbar' %>
     {{2+2}}
-    <!-- <nav ng-include='app\layouts\navbar.html'>
-    </nav> -->
     <%= yield %>
+  </div>
   </body>
 </html>
