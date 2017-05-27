@@ -6,6 +6,8 @@ gem 'rails', '~> 5.0.0'
 gem 'devise'
 gem 'pg'
 gem 'bootstrap'
+gem 'angularjs-rails'
+gem 'bower-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets

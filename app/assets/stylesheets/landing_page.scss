@@ -1,0 +1,18 @@
+$bns-image: asset-path('bns_logo.jpg');
+$ishgal-image: asset-path('logo.svg');
+
+body {
+  background-color: black;
+}
+
+.ishgal-logo {
+  background-image: url($ishgal-image);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bns-logo {
+  background-image: url($bns-image);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
